@@ -1,0 +1,11 @@
+<title>App Component Title</title>
+
+<div [style.background-color]="color">App Component</div>
+
+<button (click)="onButton()">Button</button>
+
+<app-zins-editor></app-zins-editor>
+<app-zins-result></app-zins-result>
+<app-zins-history *ngIf="showEntries"></app-zins-history>
+
+<router-outlet></router-outlet>

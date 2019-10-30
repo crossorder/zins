@@ -1,0 +1,7 @@
+<p [style.background-color]="color">zins-history works!</p>
+
+<ul>
+    <li *ngFor="let history of zinsHistories">
+    <span class="badge">{{history.id}}</span> {{history.eventTime}}
+  </li>
+</ul>
